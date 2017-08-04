@@ -13,5 +13,8 @@
 <b>MATLAB主檔</b> D:\JERWEN\show_single0108\partial_path\Deformation\mytest999modefynoloop.m<br>
 <b>分群初始化 </b>C:\Users\User\Documents\Visual Studio 2010\Projects\test<br>
 
+<h1>發現</h1>
+null<br>
+
 <h1>依時間排列</h1>
 keynote 和 mathtype 可以當成office 的插件，打論文、方程式很方便<br>
