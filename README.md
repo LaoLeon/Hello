@@ -25,18 +25,18 @@ solution : <a href = "https://xiaolaba.wordpress.com/2013/09/01/link-fatal-error
 Mat 好像可以當作 inputArray outputArray<br><br>
 
 (2017/09/03)
-如何使用以及產生.lib file , .dll file
+如何使用以及產生.lib file , .dll file<br><br>
 
-1.>>cl /c app.cpp (/c : compile without linking, only .obj file is generated)
-2.>>cl /c func1.cpp
-3.>>cl /c func2.cpp
-4.現在你可以看到在資料夾中出現 app.obj 和 func1.obj func2.obj
-5.>>link /out:program.exe app.obj func1.obj func2.obj
-6.>>program.exe (執行產生的執行檔)
-7.>>lib /out:funcs.lib func1.obj func2.obj (產生.lib file)
-8.>>link /out:program.exe app.obj funcs.lib (linking)
-9.>>program.exe
-
+1.>>cl /c app.cpp (/c : compile without linking, only .obj file is generated)<br>
+2.>>cl /c func1.cpp<br>
+3.>>cl /c func2.cpp<br>
+4.現在你可以看到在資料夾中出現 app.obj 和 func1.obj func2.obj<br>
+5.>>link /out:program.exe app.obj func1.obj func2.obj<br>
+6.>>program.exe (執行產生的執行檔)<br>
+7.>>lib /out:funcs.lib func1.obj func2.obj (產生.lib file)<br>
+8.>>link /out:program.exe app.obj funcs.lib (linking)<br>
+9.>>program.exe<br>
+<br>
 說明:LIB 和 DLL 的差別在於，LIB直接編入程式，但是DLL只在程式執行時，才開始尋找DLL檔
 所以這將導致，如果將遠本的DLL檔案改名，執行檔恐會出現不能執行的狀況
 
