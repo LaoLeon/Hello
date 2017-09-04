@@ -45,7 +45,8 @@ int variable; --->宣告一個 int variable<br>
 int func(...);--->宣告一個 int function --->int(...) func其實才是更好的表是形態<br>
 另外 函式本身就具有隱性指標的含意 也就是說  (*func)(...) 等價  func(...)<br>
 typedef int (*func)();//在全域中必須這樣使用<br>
-int (*func)();//在函式中可以這樣使用<br><br>
+int (*func)();//在函式中可以這樣使用<br>
 
 reference : http://www.programmer-club.com.tw/ShowSameTitleN/c/25059.html<br>
+請問typedef of function pointer 
 
