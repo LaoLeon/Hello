@@ -38,5 +38,14 @@ Mat 好像可以當作 inputArray outputArray<br><br>
 9.>>program.exe<br>
 <br>
 說明:LIB 和 DLL 的差別在於，LIB直接編入程式，但是DLL只在程式執行時，才開始尋找DLL檔
-所以這將導致，如果將遠本的DLL檔案改名，執行檔恐會出現不能執行的狀況
+所以這將導致，如果將遠本的DLL檔案改名，執行檔恐會出現不能執行的狀況<br>
+
+<h4>(2017/09/04)</h4><br>
+int variable; --->宣告一個 int variable<br>
+int func(...);--->宣告一個 int function --->int(...) func其實才是更好的表是形態<br>
+另外 函式本身就具有隱性指標的含意 也就是說  (*func)(...) 等價  func(...)<br>
+typedef int (*func)();//在全域中必須這樣使用<br>
+int (*func)();//在函式中可以這樣使用<br><br>
+
+reference : http://www.programmer-club.com.tw/ShowSameTitleN/c/25059.html<br>
 
