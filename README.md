@@ -51,6 +51,15 @@ reference : http://www.programmer-club.com.tw/ShowSameTitleN/c/25059.html<br>
 
 請問typedef of function pointer 
 <h4>(2017/09/29)</h4><br>
+what is overhead?<br>
+It's the resources required to set up an operation. It might seem unrelated, but necessary.<br>
+
+It's like when you need to go somewhere, you might need a car. But, it would be a lot of overhead to get a car to drive down the street,<br> so you might want to walk. However, the overhead would be worth it if you were going across the country.<br>
+
+In computer science, sometimes we use cars to go down the street because we don't have a better way, or it's not worth our time to <br>"learn how to walk".<br>
+
+<h4>(2017/09/29)</h4><br>
+<h3>c++ concurrency in action NOTE</h3>
 
 when it comes to concurrency, it refer to the following two things.<br>
 one is multithread in one process.<br>
