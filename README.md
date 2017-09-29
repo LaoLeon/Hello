@@ -69,3 +69,8 @@ too many threads might make computer busy doing switching between tasks which lo
 also,the resource is limited,though there is a tool called thread pool to limit the number of threads.<br>
 but there are no silver bullet.it got its own problem.<br>
 in the perspective of maintainence,the code using multitthread is always hard to understand.<br><br>
+
+The declarations for the multithreading
+support in the Standard C++ Library are in new headers<br>: the functions and
+classes for managing threads are declared in <thread>,<br> whereas those for protecting
+shared data are declared in other headers.<br><br>
