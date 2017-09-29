@@ -48,5 +48,16 @@ typedef int (*func)();//在全域中必須這樣使用<br>
 int (*func)();//在函式中可以這樣使用<br>
 
 reference : http://www.programmer-club.com.tw/ShowSameTitleN/c/25059.html<br>
-請問typedef of function pointer 
 
+請問typedef of function pointer 
+<h4>(2017/09/29)</h4><br>
+
+when it comes to concurrency, it refer to the following two things.<br>
+one is multithread in one process.<br>
+the other is multi single-threaded processes<br><br>
+
+the book "c++ concurrency in action " focus on the first scenario.<br>
+it seems that the utilization of multi-core hardware is another thing.<br>
+but, over all , speak of the speed up of program. Hardware multithread is the one we discussed.<br>
+
+<br>
