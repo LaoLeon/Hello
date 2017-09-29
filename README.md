@@ -63,3 +63,9 @@ but, over all , speak of the speed up of program. Hardware multithread is the on
 in the past,programmers saw their program got faster without any effort on their part.<br>
 Now,it's defferent. <br>
 <br>
+it is imprtant to know when to or not to use the concurrency.<br>
+concurrency is just like other optimization strategy.<br>
+too many threads might make computer busy doing switching between tasks which lower the program.<br>
+also,the resource is limited,though there is a tool called thread pool to limit the number of threads.<br>
+but there are no silver bullet.it got its own problem.<br>
+in the perspective of maintainence,the code using multitthread is always hard to understand.<br><br>
