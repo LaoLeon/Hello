@@ -58,6 +58,8 @@ the other is multi single-threaded processes<br><br>
 
 the book "c++ concurrency in action " focus on the first scenario.<br>
 it seems that the utilization of multi-core hardware is another thing.<br>
-but, over all , speak of the speed up of program. Hardware multithread is the one we discussed.<br>
+but, over all , speak of the speed up of program. Hardware multithread is the one we discussed.<br><br>
 
+in the past,programmers saw their program got faster without any effort on their part.<br>
+Now,it's defferent. <br>
 <br>
